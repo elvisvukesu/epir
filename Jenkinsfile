@@ -21,5 +21,11 @@ pipeline {
         always { 
             echo 'I will always say Hello again!'
         }
+        success { 
+            echo 'I will say hello if I succeed!'
+        }
+        failure { 
+            echo 'I will say hello if things do not go well'
+        }
     }
 }
