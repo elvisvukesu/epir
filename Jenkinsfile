@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-    booleanParam(name 'runTests', defaultValue: true, description: " do you want to run tests?")
+    booleanParam(name: 'runTests', defaultValue: true, description: " do you want to run tests?")
     choice(name: 'OPTION', choices: ['option 1 (default)', 'option 2', 'option 3'], description: "testing choices")
     }  
     stages {
