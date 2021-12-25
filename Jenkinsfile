@@ -4,7 +4,7 @@ pipeline {
     textParam(String version, String defaultValue = null, String description = null)
     booleanParam('runTests', true)
     choiceParam('OPTION', ['option 1 (default)', 'option 2', 'option 3'])
-    }
+    } 
     stages {
         stage('build') {
             steps {
