@@ -17,5 +17,16 @@ jobs:
           pwd
           whoami
           java --version
-      
+  windows-test:
+    needs: run-shell-commands
+    runs-on: windows-latest
+    steps:
+      - name: create-a-folder
+        run: md folder1
+      - name: name-and-list
+        run: |
+          md folder2
+          ls
+          rm folder1
+          ls
       
