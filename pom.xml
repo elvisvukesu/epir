@@ -17,6 +17,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <sonar-project.properties>sonar.projectKey=First-Demo</sonar-project.properties>
+    <sonar-project.properties>sonar.sources=.</sonar-project.properties>
   </properties>
 
   <dependencies>
