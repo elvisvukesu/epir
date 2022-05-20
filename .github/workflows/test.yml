@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: echo-a-string
         run: echo "Welcome to github actions"
+      - name: working-dir
+        run: pwd
