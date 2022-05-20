@@ -8,3 +8,8 @@ jobs:
         run: echo "Welcome to github actions"
       - name: working-dir
         run: pwd
+      - name: multi-line
+        run: |
+        pwd
+        echo $SHELL
+      
