@@ -10,6 +10,8 @@ jobs:
         run: pwd
       - name: multi-line
         run: |
-        pwd
-        echo $SHELL
+          echo $SHELL
+          pwd
+          whoami
+          java --version
       
