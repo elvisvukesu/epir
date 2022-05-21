@@ -29,4 +29,10 @@ jobs:
           ls
           rm folder1
           ls
+  third-test:
+    needs: [ run-shell-commands, windows-test ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: test-cmd
+        run: "echo third job"
       
