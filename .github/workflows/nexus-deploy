@@ -25,4 +25,4 @@ jobs:
         repository: maven-snapshots
         coordinates: groupId=com.epir artifactId=epir version=1.0-SNAPSHOT
         assets: extension=jar
-        filename: ./target/*.jar 
+        filename: ./target/*.jar  
