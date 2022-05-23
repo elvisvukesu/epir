@@ -19,6 +19,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: epirartifact
-        path: ./tartget/epir.war
+        path: tartget/epir.war
         
         
