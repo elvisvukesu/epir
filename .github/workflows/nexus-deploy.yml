@@ -22,7 +22,7 @@ jobs:
         username: admin
         password: ${{ secrets.NEXUSADMINPASSWORD }}
         format: maven2
-        repository: maven-snapshots
+        repository: maven-test
         coordinates: groupId=com.epir artifactId=epir version=1.0-SNAPSHOT
         assets: extension=war
         filename: ./target/epir.war
